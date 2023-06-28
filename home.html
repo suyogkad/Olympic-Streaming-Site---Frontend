@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="home.css">
+    <title>Home | Nepal Olympics</title>
+</head>
+
+<body>
+    <div class="container-fluid d-flex justify-content-around align-items-center" style="height: 50vh;">
+        <div class="col-lg-6 text-container">
+            <h1 class="text-light">Stream your favorite sports in Super HD quality</h1>
+        </div>
+        <div class="col-lg-6 player-container position-relative">
+            <div id="video-placeholder" class="rounded"></div> <!-- Placeholder -->
+            <div class="video-overlay rounded d-flex justify-content-center align-items-center">
+                <h3 class="text-light">Coming Soon</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Live Now Section -->
+    <div class="container-fluid d-flex justify-content-around align-items-center" style="height: 25vh;">
+        <div class="live-now-container col-lg-6">
+            <div class="live-now rounded p-4 text-light d-flex align-items-center">
+                <i class="fas fa-circle live-icon mr-2"></i> <!-- Live Icon -->
+                <h2>Live Now</h2>
+            </div>
+        </div>
+    </div>
+
+   <!-- Video Stream Information and Placeholders -->
+<div class="container-fluid d-flex flex-column align-items-center" style="height: 25vh;">
+    <div class="d-flex justify-content-around w-100">
+        <div class="player-container position-relative">
+            <div class="stream-info text-light">
+                <h2>Stream 1: Nepal Summer Olympic</h2>
+            </div>
+            <div id="video-placeholder-2" class="rounded"></div> <!-- Placeholder -->
+        </div>
+        <div class="player-container position-relative">
+            <div class="stream-info text-light">
+                <h2>Stream 2: Nepal Winter Olympic</h2>
+            </div>
+            <div id="video-placeholder-3" class="rounded"></div> <!-- Placeholder -->
+        </div>
+    </div>
+    
+</div>
+<br>
+<br>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- <script src="script.js"></script>-->
+</body>
+
+</html>

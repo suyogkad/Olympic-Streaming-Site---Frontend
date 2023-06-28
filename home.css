@@ -1,0 +1,63 @@
+body {
+    background-color: #0d0d0f;
+    font-family: 'Roboto Slab', serif;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.player-container {
+    position: relative;
+    width: 45%;
+}
+
+#video-placeholder,
+#video-placeholder-2,
+#video-placeholder-3 {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    background: #1c1d1f; /* Placeholder Color */
+    border-radius: 15px;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: red;
+    border-radius: 15px;
+    font-size: 3em;
+}
+
+/* Live Now Section */
+.live-now-container {
+    text-align: center;
+}
+
+.live-now {
+    border: 2px solid #1c1d1f;
+    box-shadow: 5px 10px #1c1d1f;
+}
+
+.live-icon {
+    color: red;
+    animation: blink-animation 1s steps(5, start) infinite;
+}
+
+/* Live Icon Blink Animation */
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+/* Stream Info Section */
+.stream-info {
+    text-align: center;
+    margin-bottom: 2rem;
+}

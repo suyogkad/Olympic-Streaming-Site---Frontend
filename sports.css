@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.sports-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for 10 cards */
+    grid-gap: 1rem;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.sport-card {
+    background: #1c1d1f;
+    border-radius: 15px;
+    transition: transform 0.3s;
+    color: white;
+}
+
+.sport-card:hover {
+    transform: scale(1.05);
+}
+
+.sport-card .card-body {
+    padding: 2rem;
+}
+
+.sport-card .card-title {
+    margin-top: 1.5rem;
+}
+
+.load-more-button {
+    color: white;
+    background-color: #1c1d1f;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: transform 0.3s;
+}
+
+.load-more-button:hover {
+    transform: scale(1.05);
+    color: white;
+}

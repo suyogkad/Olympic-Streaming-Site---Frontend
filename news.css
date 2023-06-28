@@ -1,0 +1,63 @@
+body {
+    background-color: #0d0d0f;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* a{
+color: gray;
+} */
+
+.news-container {
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    transition: transform 0.3s;
+    color: black;
+}
+
+.card-title{
+    color: rgb(12, 12, 107);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.text-muted {
+    font-size: 0.8rem;
+}
+
+.load-more-button {
+    color: white;
+    background-color: #1c1d1f;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: transform 0.3s;
+}
+
+.load-more-button:hover {
+    transform: scale(1.05);
+    color: white;
+}
