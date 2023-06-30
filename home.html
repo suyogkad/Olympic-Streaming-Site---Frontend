@@ -7,20 +7,139 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="home.css">
     <title>Home | Nepal Olympics</title>
 </head>
 
 <body>
-    <div class="container-fluid d-flex justify-content-around align-items-center" style="height: 50vh;">
+    <div class="logo-container d-flex justify-content-center">
+        <img src="./olympic_logo.svg" class="logo">
+    </div>
+    <div class="container-fluid d-flex justify-content-around align-items-center" style="height: 20vh;">
         <div class="col-lg-6 text-container">
             <h1 class="text-light">Stream your favorite sports in Super HD quality</h1>
         </div>
-        <div class="col-lg-6 player-container position-relative">
-            <div id="video-placeholder" class="rounded"></div> <!-- Placeholder -->
-            <div class="video-overlay rounded d-flex justify-content-center align-items-center">
-                <h3 class="text-light">Coming Soon</h3>
+    </div>
+
+    <!-- new section starts here -->
+    <div class="rn-titl">
+    <h3>RECENT NEWS</h3>
+</div>
+<div class="container news-container mt-5">
+    <div class="news-slider">
+        <div class="cards-container">
+        <div class="card">
+            <img src="./images/swim.png" alt="News image" class="card-img-top">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="card-title">Swimming</h5>
+                    <p class="text-muted">11 minute ago</p>
+                </div>
+                <p class="card-text">Seven-time Olympic gold medallist Caeleb
+                    <a href="https://olympics.com/en/news/caeleb-dressel-misses-out-on-100m-free-final-in-opening-race-at-u-s-swimming-cha" target="_blank"><em>see more..</em></a>
+                </p>
             </div>
+        </div>
+
+        <div class="card">
+            <img src="./images/iceh.jpg" alt="News image" class="card-img-top">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="card-title">Ice Hockey</h5>
+                    <p class="text-muted">1 minute ago</p>
+                </div>
+                <p class="card-text">The date 8 February 1998 is a cornerstone of the women’s
+                    <a href="https://www.iihf.com/en/news/42099/25_years_ago_women_joined_the_olympics" target="_blank"><em>see more..</em></a>
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./images/shortt.png" alt="News image" class="card-img-top">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="card-title">Short Track</h5>
+                    <p class="text-muted">1 minute ago</p>
+                </div>
+                <p class="card-text">Netherlands’ Schulting leads the overall women’s World Cup
+                    <a href="https://olympics.com/en/news/short-track-world-cup-dordrecht-preview-how-to-watch" target="_blank"><em>see more..</em></a>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/curling.png" alt="News image" class="card-img-top">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="card-title">Curling</h5>
+                    <p class="text-muted">1 minute ago</p>
+                </div>
+                <p class="card-text">We're just under a year away from the fourth Winter Youth
+                <a href="https://olympics.com/en/news/winter-youth-olympic-games-gangwon-2024-how-watch-curling" target="_blank"><em>see more..</em></a></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./images/boxing.jpg" alt="News image" class="card-img-top">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="card-title">Boxing</h5>
+                    <p class="text-muted">1 minute ago</p>
+                </div>
+                <p class="card-text">This rolling crisis in Olympic boxing has been escalating ever <a href="https://www.skysports.com/boxing/news/12183/12902598/olympic-boxing-crisis-the-biggest-fight-in-the-sport-is-battle-to-keep-it-in-the-olympic-games" target="_blank"><em>see more..</em></a></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./images/archery.png" alt="News image" class="card-img-top">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="card-title">Archery</h5>
+                    <p class="text-muted">1 minute ago</p>
+                </div>
+                <p class="card-text">The Indian compound mixed team of Jyothi <a href="https://olympics.com/en/news/archery-world-cup-2023-antalya-india-compound-mixed-team-final" target="_blank"><em>see more</em></a></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./images/weightlifting.png" alt="News image" class="card-img-top">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="card-title">Weightlifting </h5>
+                    <p class="text-muted">1 minute ago</p>
+                </div>
+                <p class="card-text">Indian weightlifter Sanjita Chanu, a two-time <a href="https://olympics.com/en/news/sanjita-chanu-india-weightlifter-dope-test-fail-nada-ban-four-year" target="_blank"><em>see more..</em></a></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./images/badminton.png" alt="News image" class="card-img-top">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="card-title">Badminton</h5>
+                    <p class="text-muted">1 minute ago</p>
+                </div>
+                <p class="card-text">Olympic badminton champions Viktor Axelsen and <a href="https://olympics.com/en/news/indonesia-open-2023-saturday-semi-final-results-axelsen-marin" target="_blank"><em>see more..</em></a></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./images/gymnastics.png" alt="News image" class="card-img-top">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="card-title">Gymnastics</h5>
+                    <p class="text-muted">1 minute ago</p>
+                </div>
+                <p class="card-text">Simone Biles is back. The <a href="https://www.theguardian.com/sport/2023/jun/28/simone-biles-comeback-gymnastics-us-classic-olympics" target="_blank"><em>see more..</em></a></p>
+            </div>
+        </div>
         </div>
     </div>
 
@@ -34,29 +153,57 @@
         </div>
     </div>
 
-   <!-- Video Stream Information and Placeholders -->
-<div class="container-fluid d-flex flex-column align-items-center" style="height: 25vh;">
-    <div class="d-flex justify-content-around w-100">
-        <div class="player-container position-relative">
-            <div class="stream-info text-light">
-                <h2>Stream 1: Nepal Summer Olympic</h2>
-            </div>
-            <div id="video-placeholder-2" class="rounded"></div> <!-- Placeholder -->
+<!-- Video Stream Information and Placeholders -->
+<div class="container-fluid d-flex flex-column align-items-center" style="height: 50vh;">
+    <div class="player-container position-relative">
+        <div class="stream-info text-light">
+            <h2>Stream 1: Nepal Summer Olympic</h2>
         </div>
-        <div class="player-container position-relative">
-            <div class="stream-info text-light">
-                <h2>Stream 2: Nepal Winter Olympic</h2>
-            </div>
-            <div id="video-placeholder-3" class="rounded"></div> <!-- Placeholder -->
+        <div id="video-placeholder-2" class="rounded"></div> <!-- Placeholder -->
+        <div class="video-overlay rounded d-flex justify-content-center align-items-center">
+            <i class="fas fa-play-circle fa-3x"></i>
         </div>
     </div>
-    
+    <div class="player-container position-relative">
+        <div class="stream-info text-light">
+            <h2>Stream 2: Nepal Winter Olympic</h2>
+        </div>
+        <div id="video-placeholder-3" class="rounded"></div> <!-- Placeholder -->
+        <div class="video-overlay rounded d-flex justify-content-center align-items-center">
+            <i class="fas fa-play-circle fa-3x"></i>
+        </div>
+    </div>
+</div>    
 </div>
-<br>
-<br>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <!-- <script src="script.js"></script>-->
+    <!-- <script src="script.js"></script> -->
 </body>
+
+</div>
+
+<script>
+    $('.news-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+</script>
+
 
 </html>

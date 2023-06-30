@@ -3,14 +3,51 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+.logo-container {
+    padding: 2rem 0;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.rn-titl{
+    color:rgb(138, 138, 138);
+    padding-left: 230px;
+    font-family: 'Poppins', serif;
+}
+
 .text-container {
     text-align: center;
 }
 
 .player-container {
     position: relative;
-    width: 45%;
+    width: 80%;
+    margin-bottom: 2rem;
 }
+
+/* Video Player Container */
+.player-container {
+    position: relative;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+/* Video Overlay */
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: red;
+    border-radius: 15px;
+    font-size: 3em;
+}
+
 
 #video-placeholder,
 #video-placeholder-2,
@@ -60,4 +97,59 @@ body {
 .stream-info {
     text-align: center;
     margin-bottom: 2rem;
+}
+
+
+.recent-news-container {
+    padding: 2rem 0;
+}
+
+.news-container {
+    color: white;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;  /* Line up the cards horizontally */
+    flex-wrap: nowrap;   
+    overflow-x: auto;    
+    gap: 1rem;           
+}
+
+.card {
+    flex: 0 0 auto;  /* Prevents the card from growing and shrinking in a flex container */
+    width: 200px;    /* Adjust the width as per your requirement */
+    height: 300px;   /* Adjust the height as per your requirement */
+    margin: 0 1rem;
+    background: white;
+    border-radius: 15px;
+    transition: transform 0.3s;
+    color: black;
+}
+
+.card-title{
+    color: rgb(12, 12, 107);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.text-muted {
+    font-size: 0.8rem;
+}
+
+.news-slider .card {
+    margin: 15px;
 }
